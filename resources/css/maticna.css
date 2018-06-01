@@ -1,15 +1,7 @@
-@font-face {
-    font-family: "Coolvetica";
-    src: url(".resources/fonts/coolvetica_rg.ttf");
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
 #header {
   background-color: #e0a1fc;
   font-size: 20px;
-  font-family: "Coolvetica";
+  font-family: "Comic Sans MS";
   font-weight: normal;
   text-rendering: optimizeLegibility;
   text-align: center;
