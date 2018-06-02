@@ -16,8 +16,18 @@
       <a href="index.html">
         <img src="resources/images/logo.png" alt="logo" class="logo">
       </a>
+      <nav class="openbutton">
+        <span class="open-slide">
+          <a href="#" onClick="openSideMenu()">
+          <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#111" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#111" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#111" stroke-width="5"/>
+          </svg>
+          </a>
+      </nav>
       <nav>
-        <ul>
+        <ul class="navbar-nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="gallery.html">Gallery</a></li>
@@ -25,6 +35,22 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <div id="side-menu" class="side-nav">
+        <a href="#" class="closebutton" onClick="closeSideMenu()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="information.html">Information</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <script>
+        function openSideMenu(){
+          document.getElementById("side-menu").style.width="250px";
+        }
+        function closeSideMenu(){
+          document.getElementById("side-menu").style.width="0px";
+        }
+      </script>
     </div>
   </header>
   <div class="pimg1">

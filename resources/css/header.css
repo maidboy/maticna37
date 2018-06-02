@@ -1,5 +1,6 @@
 header {
   background-color:#ffb26d;
+  max-height:100px;
 }
 
 header::after{
@@ -20,7 +21,6 @@ header::after{
   height:auto;
   float:left;
   padding:10px 0;
-
 }
 
 nav{
@@ -47,4 +47,65 @@ nav ul li a{
 
 nav ul li a:hover{
   color:#fff;
+}
+
+
+.openbutton{
+  overflow:hidden;
+}
+
+.openbutton a{
+  float:right;
+  padding-top: 30px;
+  display:block;
+  text-align:center;
+}
+
+.openbutton ul{
+  margin:8px 0px 0px 0px;
+  list-style:none;
+}
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  right:0;
+  background-color:#f4f4f4;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  color:#111;
+  display:block;
+  transition:0.3s;
+}
+.side-nav a:hover{
+  color:#fff;
+}
+.side-nav .closebutton{
+  position:absolute;
+  top:0;
+  left:22;
+  font-size:36px;
+  margin-right:50px;
+}
+
+@media(max-width:1150px){
+  .navbar-nav{
+    visibility:hidden;
+  }
+}
+
+@media(min-width:1150px){
+  .open-slide, .side-nav, .closebutton, .openbutton{
+    visibility:hidden;
+  }
 }

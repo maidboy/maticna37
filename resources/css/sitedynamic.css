@@ -47,7 +47,7 @@ body, html{
   }
 
   .ptext{
-    position: absolute;
+    position:absolute;
     top:50%;
     width:100%;
     text-align:center;
@@ -64,6 +64,23 @@ body, html{
 
   .ptext .border.trans{
     background-color:transparent;
+  }
+
+  .ptext2{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#111;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+
+  .ptext2 .border{
+    background-color:#fff;
+    color:#111;
+    padding:20px;
   }
 
   @media(max-width:568px){
