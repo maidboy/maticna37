@@ -1,0 +1,50 @@
+header {
+  background-color:#ffb26d;
+}
+
+header::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.navbar{
+  width:80%;
+  margin:0 auto;
+}
+
+.logo{
+  max-width:210px;
+  max-height:100px;
+  width:auto;
+  height:auto;
+  float:left;
+  padding:10px 0;
+
+}
+
+nav{
+  float:right;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+nav ul li{
+  display:inline-block;
+  margin-left:55px;
+  padding-top:35px;
+}
+
+nav ul li a{
+  color:#111;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+nav ul li a:hover{
+  color:#fff;
+}
