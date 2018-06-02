@@ -14,22 +14,17 @@ body, html{
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
-  /*
-    fixed = parallax
-    scroll = normal
-
-  */
   background-attachment:fixed;
 
 }
 
   .pimg1{
     background-image:url("../images/lofinko.jpg");
-    min-height:60%;
+    min-height: 60%;
   }
   .pimg2{
     background-image:url("../images/lukasslide.png");
-    min-height:100%;
+    min-height: 100%;
   }
   .pimg3{
     background-image:url("../images/lukasbozk.png");
@@ -46,13 +41,13 @@ body, html{
     color:#666;
   }
 
-  .section-light{
+  .section-dark{
     background-color:#282e34;
     color:#ddd;
   }
 
   .ptext{
-    position:absolute;
+    position: absolute;
     top:50%;
     width:100%;
     text-align:center;
@@ -76,3 +71,54 @@ body, html{
       background-attachment:scroll;
     }
   }
+
+header {
+  background-color:#ffb26d;
+}
+
+header::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.navbar{
+  width:80%;
+  margin:0 auto;
+}
+
+.logo{
+  max-width:210px;
+  max-height:100px;
+  width:auto;
+  height:auto;
+  float:left;
+  padding:10px 0;
+  
+}
+
+nav{
+  float:right;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+nav ul li{
+  display:inline-block;
+  margin-left:55px;
+  padding-top:35px;
+}
+
+nav ul li a{
+  color:#111;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+nav ul li a:hover{
+  color:#fff;
+}
