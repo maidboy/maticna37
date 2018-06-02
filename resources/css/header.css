@@ -130,6 +130,12 @@ nav{
   }
 }
 
+@media(max-width:1150px){
+  .navbar-nav2{
+    visibility:hidden;
+  }
+}
+
 @media(min-width:1150px){
   .open-slide, .side-nav, .closebutton, .openbutton{
     visibility:hidden;
