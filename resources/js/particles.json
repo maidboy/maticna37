@@ -1,0 +1,65 @@
+{
+  "particles":{
+    "number":{
+      "value":200
+    },
+    "color":{
+      "value":"#111"
+    },
+    "shape":{
+      "type":"circle",
+      "image":{
+        "src":"lofko.png"
+      },
+      "stroke":{
+        "width":1,
+        "color":"#4e4e4e"
+      }
+    },
+    "opacity":{
+      "value":0.7,
+      "random":true,
+      "anim":{
+        "enable":false,
+        "speed":1
+      }
+    },
+    "size":{
+      "value": 4,
+      "random":false,
+      "anim":{
+        "enable": false,
+        "speed":15
+      }
+    },
+    "line_linked":{
+      "enable": true,
+      "distance": 120,
+      "color":"#333",
+      "width":1
+    },
+    "move":{
+      "enable":true,
+      "speed":4,
+      "direction":"none",
+      "straight":false
+    }
+  },
+  "interactivity":{
+    "events":{
+      "onhover":{
+        "enable":true,
+        "mode":"repulse"
+      },
+      "onclick":{
+        "enable": false
+      }
+      },
+    "modes":{
+      "repulse":{
+        "distance":50,
+        "duration":0.3
+      }
+    }
+  }
+}

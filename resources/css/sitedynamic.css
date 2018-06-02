@@ -19,15 +19,15 @@ body, html{
 }
 
   .pimg1{
-    background-image:url("../images/maticnamain.jpg");
+    background-image:url("../images/site/maticnamain.jpg");
     min-height: 80%;
   }
   .pimg2{
-    background-image:url("../images/maticnafront.jpg");
+    background-image:url("../images/site/maticnafront.jpg");
     min-height: 100%;
   }
   .pimg3{
-    background-image:url("../images/maticnanumber.jpg");
+    background-image:url("../images/site/maticnanumber.jpg");
     min-height:100%
   }
 
@@ -87,4 +87,9 @@ body, html{
     .pimg1, .pimg2, .pimg3{
       background-attachment:scroll;
     }
+  }
+
+  #particles-js{
+    background:#17f2aa;
+    height:100%;
   }

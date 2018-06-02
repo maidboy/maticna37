@@ -1,5 +1,10 @@
-header {
-  background-color:#ffb26d;
+.header1{
+  background-color:#fac232;
+  max-height:100px;
+}
+
+.header2{
+  background-color:#292929;
   max-height:100px;
 }
 
@@ -27,25 +32,46 @@ nav{
   float:right;
 }
 
-nav ul{
+.navbar-nav{
   margin:0;
   padding:0;
   list-style:none;
 }
 
-nav ul li{
+.navbar-nav li{
   display:inline-block;
   margin-left:55px;
   padding-top:35px;
 }
 
-nav ul li a{
+.navbar-nav li a{
   color:#111;
   text-decoration:none;
   text-transform:uppercase;
 }
 
-nav ul li a:hover{
+.navbar-nav li a:hover{
+  color:#fff;
+}
+
+.navbar-nav2{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.navbar-nav2 li{
+  display:inline-block;
+  margin-left:55px;
+  padding-top:35px;
+}
+.navbar-nav2 li a{
+  color:#00ffb3;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+.navbar-nav2 li a:hover{
   color:#fff;
 }
 
