@@ -1,0 +1,22 @@
+#particles-js{
+    background:#17f2aa;
+    height:100%;
+}
+
+.gallerymain{
+  background: rgb(255, 255, 255);
+  background:rgba(255,255,255,0.93);
+  padding:2em;
+  border:#ccc 2px solid;
+  position:absolute;
+  top:150px;
+  left:50px;
+  right:50px;
+}
+
+.galleryimage{
+  max-width: 500px;
+  min-width: 300px;
+  min-width: 40%;
+  min-height: 40%;
+}
