@@ -1,22 +1,130 @@
 #particles-js{
-    background:#17f2aa;
-    height:100%;
+  background:#17f2aa;
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.gallerymain{
-  background: rgb(255, 255, 255);
-  background:rgba(255,255,255,0.93);
-  padding:2em;
-  border:#ccc 2px solid;
+.galleryselect{
+  display: inline-block;
+  padding-bottom: 10%;
   position:absolute;
-  top:150px;
-  left:50px;
-  right:50px;
 }
 
-.galleryimage{
-  max-width: 500px;
-  min-width: 300px;
-  min-width: 40%;
-  min-height: 40%;
+.galleryselect img{
+  width:200px;
+  height:200px;
+  display:block;
+  margin:0 auto;
+  position:relative;
+}
+
+.galleryselect a{
+  text-decoration:none;
+  list-style:none;
+}
+
+.galleryselect p{
+  margin:0;
+  padding-top:10px;
+  text-align:center;
+}
+
+#lukasbutton{
+  display:inline-block;
+  width:200px;
+  height:200px;
+  margin: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #b9b9b9;
+  transition: box-shadow 0.3s;
+  }
+#lukasbutton:hover{
+  box-shadow: 0 0 0 7px #ffcb71;
+}
+#lukastext{
+  visibility:hidden;
+  position:relative;
+  align-items:center;
+  color:#292929;
+}
+#lukasbutton:hover #lukastext{
+  visibility:visible;
+  position:relative;
+  bottom:0px;
+  left:0px;
+  color:#292929;
+}
+
+#peterjrbutton{
+  display:inline-block;
+  width:200px;
+  height:200px;
+  margin: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #b9b9b9;
+  transition: box-shadow 0.3s;
+  }
+#peterjrbutton:hover{
+  box-shadow: 0 0 0 7px #ff6e6e;
+}
+#peterjrtext{
+  visibility:hidden;
+  position:relative;
+  align-items:center;
+  color:#292929;
+}
+#peterjrbutton:hover #peterjrtext{
+  visibility:visible;
+  position:relative;
+  color:#292929;
+}
+#slavomirabutton{
+  display:inline-block;
+  width:200px;
+  height:200px;
+  margin: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #b9b9b9;
+  transition: box-shadow 0.3s;
+}
+#slavomirabutton:hover{
+  box-shadow: 0 0 0 7px #6ed6fc;
+}
+#slavomiratext{
+  visibility:hidden;
+  position:relative;
+  align-items:center;
+  color:#292929;
+}
+#slavomirabutton:hover #slavomiratext{
+  visibility:visible;
+  position:relative;
+  color:#292929;
+}
+
+#peterbutton{
+  display:inline-block;
+  width:200px;
+  height:200px;
+  margin: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #b9b9b9;
+  transition: box-shadow 0.3s;
+}
+#peterbutton:hover{
+  box-shadow: 0 0 0 7px #b56efc;
+}
+#petertext{
+  visibility:hidden;
+  position:relative;
+  align-items:center;
+  color:#292929;
+}
+#peterbutton:hover #petertext{
+  visibility:visible;
+  position:relative;
+  color:#292929;
 }
