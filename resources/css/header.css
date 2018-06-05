@@ -19,13 +19,26 @@ header::after{
   margin:0 auto;
 }
 
-.logo{
+#mainlogo{
   max-width:210px;
   max-height:100px;
   width:auto;
   height:auto;
   float:left;
-  padding:10px 0;
+  padding:5px 0;
+}
+
+#gallerylogo{
+  max-width:210px;
+  max-height:100px;
+  width:auto;
+  height:auto;
+  float:left;
+  padding:5px 0;
+}
+
+#gallerylogo path{
+  fill: #17f2aa !important;
 }
 
 nav{
