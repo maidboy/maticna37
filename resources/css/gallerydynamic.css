@@ -1,8 +1,8 @@
 #particles-js{
   background:#17f2aa;
-  height:100%;
+  height:100%;;
   width:100%;
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
 }
@@ -45,13 +45,15 @@
   box-shadow: 0 0 0 7px #ffcb71;
 }
 #lukastext{
-  visibility:hidden;
+  opacity:0;
+  transition:opacity 0.3s linear;
   position:relative;
   align-items:center;
   color:#292929;
 }
 #lukasbutton:hover #lukastext{
-  visibility:visible;
+  transition:opacity 0.3s linear;
+  opacity:1;
   position:relative;
   bottom:0px;
   left:0px;
@@ -71,13 +73,14 @@
   box-shadow: 0 0 0 7px #ff6e6e;
 }
 #peterjrtext{
-  visibility:hidden;
-  position:relative;
+  opacity:0;
+  transition:opacity 0.3s linear;
   align-items:center;
   color:#292929;
 }
 #peterjrbutton:hover #peterjrtext{
-  visibility:visible;
+  transition:opacity 0.3s linear;
+  opacity:1;
   position:relative;
   color:#292929;
 }
@@ -94,13 +97,14 @@
   box-shadow: 0 0 0 7px #6ed6fc;
 }
 #slavomiratext{
-  visibility:hidden;
-  position:relative;
+  opacity:0;
+  transition:opacity 0.3s linear;
   align-items:center;
   color:#292929;
 }
 #slavomirabutton:hover #slavomiratext{
-  visibility:visible;
+  transition:opacity 0.3s linear;
+  opacity:1;
   position:relative;
   color:#292929;
 }
@@ -118,13 +122,14 @@
   box-shadow: 0 0 0 7px #b56efc;
 }
 #petertext{
-  visibility:hidden;
-  position:relative;
+  opacity:0;
+  transition:opacity 0.3s linear;
   align-items:center;
   color:#292929;
 }
 #peterbutton:hover #petertext{
-  visibility:visible;
+  transition:opacity 0.3s linear;
+  opacity:1;
   position:relative;
   color:#292929;
 }
