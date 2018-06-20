@@ -3,7 +3,7 @@
   max-height:100px;
 }
 
-.header2{
+.header2, .header-lukas, .header-peterjr, .header-slavomira, .header-peter{
   background-color:#292929;
   max-height:100px;
 }
@@ -39,6 +39,58 @@ header::after{
 
 #gallerylogo path{
   fill: #17f2aa !important;
+}
+
+#lukaslogo{
+  max-width:210px;
+  max-height:100px;
+  width:auto;
+  height:auto;
+  float:left;
+  padding:5px 0;
+}
+
+#lukaslogo path{
+  fill: #ffcb71 !important;
+}
+
+#peterjrlogo{
+  max-width:210px;
+  max-height:100px;
+  width:auto;
+  height:auto;
+  float:left;
+  padding:5px 0;
+}
+
+#peterjrlogo path{
+  fill: #ff6262 !important;
+}
+
+#slavomiralogo{
+  max-width:210px;
+  max-height:100px;
+  width:auto;
+  height:auto;
+  float:left;
+  padding:5px 0;
+}
+
+#slavomiralogo path{
+  fill: #62f6ff !important;
+}
+
+#peterlogo{
+  max-width:210px;
+  max-height:100px;
+  width:auto;
+  height:auto;
+  float:left;
+  padding:5px 0;
+}
+
+#peterlogo path{
+  fill: #c065ff !important;
 }
 
 nav{
@@ -88,6 +140,93 @@ nav{
   color:#fff;
 }
 
+.navbar-nav-lukas{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.navbar-nav-lukas li{
+  display:inline-block;
+  margin-left:55px;
+  padding-top:35px;
+}
+
+.navbar-nav-lukas li a{
+  color:#ffcb71;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+.navbar-nav-lukas li a:hover{
+  color:#fff;
+}
+
+.navbar-nav-peterjr{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.navbar-nav-peterjr li{
+  display:inline-block;
+  margin-left:55px;
+  padding-top:35px;
+}
+
+.navbar-nav-peterjr li a{
+  color:#ff6262;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+.navbar-nav-peterjr li a:hover{
+  color:#fff;
+}
+
+.navbar-nav-slavomira{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.navbar-nav-slavomira li{
+  display:inline-block;
+  margin-left:55px;
+  padding-top:35px;
+}
+
+.navbar-nav-slavomira li a{
+  color:#62f6ff;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+.navbar-nav-slavomira li a:hover{
+  color:#fff;
+}
+
+.navbar-nav-peter{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.navbar-nav-peter li{
+  display:inline-block;
+  margin-left:55px;
+  padding-top:35px;
+}
+
+.navbar-nav-peter li a{
+  color:#c065ff;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+.navbar-nav-peter li a:hover{
+  color:#fff;
+}
 
 .openbutton{
   overflow:hidden;
