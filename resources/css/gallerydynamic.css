@@ -143,9 +143,3 @@
   position:relative;
   color:#292929;
 }
-
-@media(max-width:568px){
-    #particles-js{
-      visibility:hidden;
-    }
-  }
