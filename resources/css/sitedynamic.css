@@ -52,9 +52,9 @@ body, html{
     width:100%;
     text-align:center;
     color:#000;
-    font-size:27px;
+    font-size:160%;
     letter-spacing:8px;
-    line-height: 200%;
+    line-height: 250%;
     text-transform:uppercase;
   }
   .ptext .border{
@@ -73,8 +73,9 @@ body, html{
     width:100%;
     text-align:center;
     color:#111;
-    font-size:27px;
+    font-size:160%;
     letter-spacing:8px;
+    line-height: 250%;
     text-transform:uppercase;
   }
 
